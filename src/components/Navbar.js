@@ -28,13 +28,13 @@ export default class Navbar extends Component {
             <img className="me meNav" alt='sexy me' src={Juanito} />
             <h1 className="sideName">Juan Alberto Pimentel JR</h1>
             <Navigation>
-              <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link sideLink">
                 <h4>About Me</h4>
               </Link>
-              <Link to="/portfolio" className="nav-link">
+              <Link to="/portfolio" className="nav-link sideLink">
                 <h4>Portfolio</h4>
               </Link>
-              <Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link sideLink">
                 <h4>Contact</h4>
               </Link>
             </Navigation>

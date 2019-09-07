@@ -75,6 +75,9 @@ body{
     pointer-events: auto;
      opacity: 0.2; 
 }
+.sideLink{
+      color: mediumturquoise;
+}
 
 /************************************************************************************************
                                             About ME Section 
