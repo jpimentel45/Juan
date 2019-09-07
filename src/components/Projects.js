@@ -28,7 +28,7 @@ const Projects=[
       "link": "https://glacial-shelf-22512.herokuapp.com/",
       "image": require("../img/poke.png"),
       "text": "Pokemon Hooks",
-      "description": "React Hooks, with Poke API, add more desciption to this",
+      "description": "Utilized: React Hooks, with axios call to PokeAPI",
       "git": "Github",
       "hub": "https://github.com/jpimentel45/pokemon-react"
     },
@@ -36,7 +36,7 @@ const Projects=[
       "link": "https://warm-crag-68005.herokuapp.com/",
       "image": require("../img/goodBurger.png"),
       "text": "Good Burger",
-      "description": "MVC with CRUD operations, and mySQL db",
+      "description": "Utilized: MVC model with CRUD operations, and MySQL DB",
       "git": "Github",
       "hub": "https://github.com/jpimentel45/burger"
     }
