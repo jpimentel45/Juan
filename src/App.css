@@ -76,10 +76,10 @@ body{
      opacity: 0.2; 
 }
 .sideLink{
-      color: mediumturquoise;
+      color: mediumturquoise !important;
 }
 .mdl-navigation__link:hover {
-    background-color: mediumturquoise;
+    background-color: lavender !important;
 }
 /************************************************************************************************
                                             About ME Section 
