@@ -101,6 +101,8 @@ body{
 }
 .bio>p{
   font-weight: bold;
+  line-height: 26px;
+  font-size: 20px
 }
 
 .portfolio {
