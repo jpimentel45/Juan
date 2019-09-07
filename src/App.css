@@ -96,8 +96,11 @@ body{
     text-align: center;
     margin: auto;
     width: 50%;
-    font-weight: 500;
+  
     font-size: 18px;
+}
+.bio>p{
+  font-weight: bold;
 }
 
 .portfolio {
