@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Projects from './projects.js'
+import Projects from './Projects'
 // import { Link } from "react-router-dom";
 import FriendCard from './Card'
 export default class portfolio extends Component {
