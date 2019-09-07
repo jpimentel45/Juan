@@ -84,9 +84,11 @@ body{
     margin: 20px auto;
 }
 .bio{
-      text-align: center;
-          margin: auto;
+    text-align: center;
+    margin: auto;
     width: 50%;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .portfolio {
