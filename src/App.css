@@ -58,6 +58,10 @@ body{
 .meNav{
       width: 72% !important;
 }
+.sideName{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .navbar-nav {
   flex-direction: row !important;

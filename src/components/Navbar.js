@@ -26,7 +26,7 @@ export default class Navbar extends Component {
           </Header>
           <Drawer className='sideBar'>
             <img className="me meNav" alt='sexy me' src={Juanito} />
-            <h1>Juan Alberto Pimentel JR</h1>
+            <h1 className="sideName">Juan Alberto Pimentel JR</h1>
             <Navigation>
               <Link to="/" className="nav-link">
                 <h4>About Me</h4>
