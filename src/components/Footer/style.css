@@ -1,0 +1,19 @@
+.footer{
+    place-self: center;
+}
+.handles>.sideLink{
+    height: 25px;
+ margin: 10px;
+}
+.sideLink:hover {
+    background: lavender !important;
+}
+
+.sideLink>img{
+    height: 100%
+}
+.handles{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+}

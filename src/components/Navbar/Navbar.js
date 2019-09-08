@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { Link, Route } from "react-router-dom";
 import { Layout, Navigation, Header, Drawer, Content} from 'react-mdl';
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Juanito from '../img/juanito.png'
-
+import './style.css'
+import AboutMe from "../AboutMe/AboutMe";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
+import Juanito from '../../img/juanito.png'
+import Footer from '../Footer'
 export default class Navbar extends Component {
   render() {
     return (
@@ -37,6 +38,8 @@ export default class Navbar extends Component {
               <Link to="/contact" className="nav-link sideLink">
                 <h4>Contact</h4>
               </Link>
+            <Footer />
+       
             </Navigation>
           </Drawer>
           <Content>
@@ -47,6 +50,8 @@ export default class Navbar extends Component {
               <Route path="/contact" component={Contact} />
             </div>
           </Content>
+          <br />
+          <Footer />
         </Layout>
       </div>
 

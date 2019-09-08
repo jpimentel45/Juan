@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Projects from './Projects'
 // import { Link } from "react-router-dom";
-import FriendCard from './Card'
+import Card from './Card'
 export default class portfolio extends Component {
   render() {
     return (
@@ -9,7 +9,7 @@ export default class portfolio extends Component {
         
         {
           Projects.map(project => (
-            <FriendCard
+            <Card
               image={project.image}
               link={project.link}
               text={project.text}

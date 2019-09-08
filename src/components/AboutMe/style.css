@@ -1,0 +1,32 @@
+/************************************************************************************************
+                                            About ME Section 
+ ************************************************************************************************/
+.me {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin: 20px auto;
+}
+.bio{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  
+    font-size: 18px;
+}
+.bio>p{
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 20px
+}
+
+@media screen and (max-width: 768px) {
+  .me{
+    width: 70%;
+  }
+  .bio {
+   width: unset;
+  }
+}

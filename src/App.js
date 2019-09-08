@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router} from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       
         <Navbar />
         <br />
-        
+       
     
     </Router>
   );

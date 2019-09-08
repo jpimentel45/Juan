@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
- import Juanito from '../img/juanito.png'
+import './style.css'
+ import Juanito from '../../img/juanito.png'
 
 export default class AboutMe extends Component {
   render() {
