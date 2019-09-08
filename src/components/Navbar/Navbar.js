@@ -4,7 +4,7 @@ import { Layout, Navigation, Header, Drawer, Content} from 'react-mdl';
 import './style.css'
 import AboutMe from "../AboutMe/AboutMe";
 import Portfolio from "../Portfolio";
-import Contact from "../Contact";
+// import Contact from "../Contact";
 import Juanito from '../../img/juanito.png'
 import Footer from '../Footer'
 export default class Navbar extends Component {
@@ -20,9 +20,7 @@ export default class Navbar extends Component {
               <Link to="/portfolio" className="nav-link">
                 Portfolio
               </Link>
-              <Link to="/contact" className="nav-link">
-                Contact
-              </Link>
+             
             </Navigation>
           </Header>
           <Drawer className='sideBar'>
@@ -35,9 +33,7 @@ export default class Navbar extends Component {
               <Link to="/portfolio" className="nav-link sideLink">
                 <h4>Portfolio</h4>
               </Link>
-              <Link to="/contact" className="nav-link sideLink">
-                <h4>Contact</h4>
-              </Link>
+            
             <Footer />
        
             </Navigation>
@@ -47,7 +43,7 @@ export default class Navbar extends Component {
             <div className="container">
               <Route path="/" exact component={AboutMe} />
               <Route path="/portfolio" component={Portfolio} />
-              <Route path="/contact" component={Contact} />
+              
             </div>
           </Content>
           <br />
@@ -58,3 +54,15 @@ export default class Navbar extends Component {
     );
   }
 }
+//this one goes on main Navigation
+// <Link to="/contact" className="nav-link">
+//   Contact
+//               </Link>
+
+//this is sideLinkNavigation
+// <Link to="/contact" className="nav-link sideLink">
+//   <h4>Contact</h4>
+// </Link>
+
+//This goies in content on div container
+// <Route path="/contact" component={Contact} />
