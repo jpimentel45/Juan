@@ -46,7 +46,6 @@ export default class Navbar extends Component {
               
             </div>
           </Content>
-          <br />
           <Footer />
         </Layout>
       </div>
